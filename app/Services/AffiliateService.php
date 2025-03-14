@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Mail;
 
 class AffiliateService
 {
+    
     public function __construct(
         protected ApiService $apiService
     ) {}

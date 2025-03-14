@@ -65,7 +65,7 @@ class MerchantService
         $user = User::where('email', $email)->first();
         return $user ? $user->merchant : null;
     }
-
+ 
 
     /**
      * Pay out all of an affiliate's orders.

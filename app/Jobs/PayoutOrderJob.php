@@ -34,7 +34,7 @@ class PayoutOrderJob implements ShouldQueue
     public function handle(ApiService $apiService)
     {
         DB::beginTransaction();
-
+ 
         try {
             if ($this->order->status === 'paid') {
                 DB::rollBack();

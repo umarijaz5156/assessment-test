@@ -23,7 +23,7 @@ return new class extends Migration
             $table->decimal('commission_owed', 10, 2)->default(0.00);
             $table->string('payout_status')->default(Order::STATUS_UNPAID);
             $table->string('discount_code')->nullable();
-            $table->timestamps();
+            $table->timestamps(); 
         });
     }
 

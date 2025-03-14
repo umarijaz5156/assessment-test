@@ -13,7 +13,7 @@ class MerchantController extends Controller
     public function __construct(
         MerchantService $merchantService
     ) {}
-
+ 
     /**
      * Useful order statistics for the merchant API.
      *

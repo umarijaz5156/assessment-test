@@ -20,7 +20,7 @@ return new class extends Migration
             // TODO: Replace me with a brief explanation of why floats aren't the correct data type, and replace with the correct data type.
             $table->decimal('commission_rate', 8, 2);
             $table->string('discount_code');
-            $table->timestamps();
+            $table->timestamps(); 
         });
     }
 

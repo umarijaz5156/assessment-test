@@ -20,7 +20,7 @@ class WebhookController extends Controller
      * @return JsonResponse
      */
     public function __invoke(Request $request): JsonResponse
-    {
+    { 
         // TODO: Complete this method
     }
 }
